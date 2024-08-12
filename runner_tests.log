@@ -1,0 +1,8 @@
+2024-08-12 21:59:35,747 | WARNING | Неверный тип данных для объекта Runner
+Traceback (most recent call last):
+  File "D:\Програмирование\Python проекты\Probnay_versiy\pythonProject3\Модуль Unit_Test\Логирование.py", line 71, in test_run
+    runer_2 = Runner(name=6, speed=10)
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Програмирование\Python проекты\Probnay_versiy\pythonProject3\Модуль Unit_Test\Логирование.py", line 10, in __init__
+    raise TypeError(f'Имя может быть только числом, передано {type(name).__name__}')
+TypeError: Имя может быть только числом, передано int
